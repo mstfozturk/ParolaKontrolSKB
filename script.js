@@ -71,7 +71,7 @@ btn.innerText = 'Sıfırla'
 
 // Crack Duration
 const crackDuration = (range, length) => {
-  let ctime = Math.round(range ** length / 92_147_483_600);
+  let ctime = Math.round(range ** length / 992_147_483_600);
   let steps = [12, 30, 24, 60, 60];
   let dimensions = ["Yıl", "Ay", "Saat", "Dakika", "Saniye"];
   let dimension = null;
